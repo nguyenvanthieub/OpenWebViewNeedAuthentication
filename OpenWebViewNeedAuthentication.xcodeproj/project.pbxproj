@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8D961341E72F0780071FE1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D961331E72F0780071FE1B /* main.m */; };
+		F8D961371E72F0780071FE1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D961361E72F0780071FE1B /* AppDelegate.m */; };
+		F8D9613A1E72F0780071FE1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D961391E72F0780071FE1B /* ViewController.m */; };
+		F8D9613D1E72F0780071FE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D9613B1E72F0780071FE1B /* Main.storyboard */; };
+		F8D9613F1E72F0780071FE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D9613E1E72F0780071FE1B /* Assets.xcassets */; };
+		F8D961421E72F0780071FE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D961401E72F0780071FE1B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8D9612F1E72F0780071FE1B /* OpenWebViewNeedAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWebViewNeedAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D961331E72F0780071FE1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8D961351E72F0780071FE1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8D961361E72F0780071FE1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8D961381E72F0780071FE1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8D961391E72F0780071FE1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8D9613C1E72F0780071FE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8D9613E1E72F0780071FE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8D961411E72F0780071FE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8D961431E72F0780071FE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D9612C1E72F0770071FE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D961261E72F0770071FE1B = {
+			isa = PBXGroup;
+			children = (
+				F8D961311E72F0780071FE1B /* OpenWebViewNeedAuthentication */,
+				F8D961301E72F0780071FE1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D961301E72F0780071FE1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D9612F1E72F0780071FE1B /* OpenWebViewNeedAuthentication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D961311E72F0780071FE1B /* OpenWebViewNeedAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				F8D961351E72F0780071FE1B /* AppDelegate.h */,
+				F8D961361E72F0780071FE1B /* AppDelegate.m */,
+				F8D961381E72F0780071FE1B /* ViewController.h */,
+				F8D961391E72F0780071FE1B /* ViewController.m */,
+				F8D9613B1E72F0780071FE1B /* Main.storyboard */,
+				F8D9613E1E72F0780071FE1B /* Assets.xcassets */,
+				F8D961401E72F0780071FE1B /* LaunchScreen.storyboard */,
+				F8D961431E72F0780071FE1B /* Info.plist */,
+				F8D961321E72F0780071FE1B /* Supporting Files */,
+			);
+			path = OpenWebViewNeedAuthentication;
+			sourceTree = "<group>";
+		};
+		F8D961321E72F0780071FE1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8D961331E72F0780071FE1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8D9612E1E72F0770071FE1B /* OpenWebViewNeedAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D961461E72F0780071FE1B /* Build configuration list for PBXNativeTarget "OpenWebViewNeedAuthentication" */;
+			buildPhases = (
+				F8D9612B1E72F0770071FE1B /* Sources */,
+				F8D9612C1E72F0770071FE1B /* Frameworks */,
+				F8D9612D1E72F0770071FE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenWebViewNeedAuthentication;
+			productName = OpenWebViewNeedAuthentication;
+			productReference = F8D9612F1E72F0780071FE1B /* OpenWebViewNeedAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D961271E72F0770071FE1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = thieumao;
+				TargetAttributes = {
+					F8D9612E1E72F0770071FE1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z4ZNZ62PTW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F8D9612A1E72F0770071FE1B /* Build configuration list for PBXProject "OpenWebViewNeedAuthentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8D961261E72F0770071FE1B;
+			productRefGroup = F8D961301E72F0780071FE1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D9612E1E72F0770071FE1B /* OpenWebViewNeedAuthentication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D9612D1E72F0770071FE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D961421E72F0780071FE1B /* LaunchScreen.storyboard in Resources */,
+				F8D9613F1E72F0780071FE1B /* Assets.xcassets in Resources */,
+				F8D9613D1E72F0780071FE1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D9612B1E72F0770071FE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D9613A1E72F0780071FE1B /* ViewController.m in Sources */,
+				F8D961371E72F0780071FE1B /* AppDelegate.m in Sources */,
+				F8D961341E72F0780071FE1B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8D9613B1E72F0780071FE1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D9613C1E72F0780071FE1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8D961401E72F0780071FE1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D961411E72F0780071FE1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8D961441E72F0780071FE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8D961451E72F0780071FE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D961471E72F0780071FE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z4ZNZ62PTW;
+				INFOPLIST_FILE = OpenWebViewNeedAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thieumao.OpenWebViewNeedAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8D961481E72F0780071FE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z4ZNZ62PTW;
+				INFOPLIST_FILE = OpenWebViewNeedAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thieumao.OpenWebViewNeedAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D9612A1E72F0770071FE1B /* Build configuration list for PBXProject "OpenWebViewNeedAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D961441E72F0780071FE1B /* Debug */,
+				F8D961451E72F0780071FE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D961461E72F0780071FE1B /* Build configuration list for PBXNativeTarget "OpenWebViewNeedAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D961471E72F0780071FE1B /* Debug */,
+				F8D961481E72F0780071FE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8D961271E72F0770071FE1B /* Project object */;
+}
